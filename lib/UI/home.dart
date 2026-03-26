@@ -51,8 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
         currentIndex: _selectedIndex,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant1'),
-          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant22'),
-          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant333'),
+          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant2'),
+          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant3'),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
         ],
       )
