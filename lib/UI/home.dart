@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant1'),
           BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant2'),
-          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant3'),
+          BottomNavigationBarItem(icon: Icon(Icons.view_list), label: 'Ecrant36846'),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Settings'),
         ],
       )
