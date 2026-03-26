@@ -29,6 +29,7 @@ class TaskViewModel extends ChangeNotifier{
     liste=[];
   }
   void addTask(Task task){
+    print(task.title);
     liste.add(task);
     notifyListeners();
   }

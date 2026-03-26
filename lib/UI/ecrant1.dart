@@ -22,14 +22,14 @@ class EcrantUn extends StatelessWidget {
   Widget build(BuildContext context) {
     tasks = context.watch<TaskViewModel>().liste;
     return ListView.builder(
-    itemCount: entries.length,
+    itemCount: tasks.length,
     itemBuilder: (BuildContext context, int index) {
       return Card(
         child: ListTile(
           onTap: _cliqueSurItem,
-          title: Text(entries[index]),
-          leading: Text(entries[index]),
-          subtitle: Text(_selectedIndex.toString()),
+          title: Text(tasks[index].title),
+          //leading: Text(entries[index]),
+          subtitle: Text(tasks[index].tags.join(" ")),
           tileColor: Colors.blueGrey,
         ),
       );
